@@ -318,7 +318,7 @@ rule C_STATIC_LIBRARY_LINKER____idf_main_
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = C:\Users\nguye\.espressif\tools\cmake\3.30.2\bin\cmake.exe --regenerate-during-build -SC:\Users\nguye\Esp\v5.5.1\esp-idf\components\bootloader\subproject -BC:\Users\nguye\Esp\project_esp\hello_world\build\bootloader
+  command = C:\Users\nguye\.espressif\tools\cmake\3.30.2\bin\cmake.exe --regenerate-during-build -SC:\Users\nguye\Esp\v5.5.1\esp-idf\components\bootloader\subproject -BC:\Users\nguye\Esp\project_esp\lab_embedded\lab1_embedded\build\bootloader
   description = Re-running CMake...
   generator = 1
 

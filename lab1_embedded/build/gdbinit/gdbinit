@@ -1,2 +1,2 @@
-source C:/Users/nguye/Esp/project_esp/hello_world/build/gdbinit/symbols
-source C:/Users/nguye/Esp/project_esp/hello_world/build/gdbinit/connect
+source C:/Users/nguye/Esp/project_esp/lab_embedded/lab1_embedded/build/gdbinit/symbols
+source C:/Users/nguye/Esp/project_esp/lab_embedded/lab1_embedded/build/gdbinit/connect

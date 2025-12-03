@@ -10,18 +10,18 @@ if(NOT EXISTS "C:/Users/nguye/Esp/v5.5.1/esp-idf/components/bootloader/subprojec
   file(MAKE_DIRECTORY "C:/Users/nguye/Esp/v5.5.1/esp-idf/components/bootloader/subproject")
 endif()
 file(MAKE_DIRECTORY
-  "C:/Users/nguye/Esp/project_esp/hello_world/build/bootloader"
-  "C:/Users/nguye/Esp/project_esp/hello_world/build/bootloader-prefix"
-  "C:/Users/nguye/Esp/project_esp/hello_world/build/bootloader-prefix/tmp"
-  "C:/Users/nguye/Esp/project_esp/hello_world/build/bootloader-prefix/src/bootloader-stamp"
-  "C:/Users/nguye/Esp/project_esp/hello_world/build/bootloader-prefix/src"
-  "C:/Users/nguye/Esp/project_esp/hello_world/build/bootloader-prefix/src/bootloader-stamp"
+  "C:/Users/nguye/Esp/project_esp/lab_embedded/lab1_embedded/build/bootloader"
+  "C:/Users/nguye/Esp/project_esp/lab_embedded/lab1_embedded/build/bootloader-prefix"
+  "C:/Users/nguye/Esp/project_esp/lab_embedded/lab1_embedded/build/bootloader-prefix/tmp"
+  "C:/Users/nguye/Esp/project_esp/lab_embedded/lab1_embedded/build/bootloader-prefix/src/bootloader-stamp"
+  "C:/Users/nguye/Esp/project_esp/lab_embedded/lab1_embedded/build/bootloader-prefix/src"
+  "C:/Users/nguye/Esp/project_esp/lab_embedded/lab1_embedded/build/bootloader-prefix/src/bootloader-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "C:/Users/nguye/Esp/project_esp/hello_world/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
+    file(MAKE_DIRECTORY "C:/Users/nguye/Esp/project_esp/lab_embedded/lab1_embedded/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "C:/Users/nguye/Esp/project_esp/hello_world/build/bootloader-prefix/src/bootloader-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "C:/Users/nguye/Esp/project_esp/lab_embedded/lab1_embedded/build/bootloader-prefix/src/bootloader-stamp${cfgdir}") # cfgdir has leading slash
 endif()

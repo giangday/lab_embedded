@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/nguye/Esp/project_esp/hello_world/main
+# Install script for directory: C:/Users/nguye/Esp/project_esp/lab_embedded/lab1_embedded/main
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
